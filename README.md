@@ -28,24 +28,24 @@ This project implements a live audio transcription system that utilizes OpenAI's
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/yourusername/LIVETRANSCRIPT.git
    cd LIVETRANSCRIPT
    
 2. Install the required packages:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Obtain your OpenAI API key from OpenAI's website.
 
 4. Update the main.py file to include your API key:
 
-OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'
+   OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'
 
-**###Running the Application**
+###Running the Application
 To start the application, run:
 
-python3 main.py
+   python3 main.py
 
 **Usage**
 Speak into your microphone, and the application will transcribe your speech in real-time.
