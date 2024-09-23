@@ -1,8 +1,9 @@
-🌟 Live Transcript
-🚀 Getting Started
+#🌟 Live Transcript
+
+##🚀 Getting Started
 Follow these steps to set up and run Live Transcript on your local machine.
 
-📋 Prerequisites
+##📋 Prerequisites
 Python >=3.8.0
 An OpenAI API key (set up a paid OpenAI account)
 Windows OS (Not tested on others)
@@ -16,7 +17,7 @@ Install FFmpeg with:
 powershell
 Copy code
 choco install ffmpeg
-🔧 Installation
+##🔧 Installation
 Clone the repository:
 bash
 
@@ -33,7 +34,7 @@ Create a keys.py file and add your OpenAI API key:
 python
 
 OPENAI_API_KEY="YOUR_API_KEY"
-🎬 Running Live Transcript
+##🎬 Running Live Transcript
 Run the main script:
 
 bash
@@ -46,12 +47,12 @@ bash
 python main.py --api
 This will start real-time transcription from your microphone and speaker.
 
-⚠️ Limitations
+##⚠️ Limitations
 Default Device: Only the default microphone and speaker are supported.
 Whisper Model: The 'tiny' version of the Whisper ASR model is used for speed but may have lower accuracy.
 Language Support: Transcription is primarily in English unless the --api flag is used.
-📖 License
+##📖 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve Live Transcript.
