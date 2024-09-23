@@ -11,7 +11,7 @@ Follow these steps to set up and run Live Transcript on your local machine.
 
 - Python >=3.8.0
 - An OpenAI API key (set up a paid OpenAI account)
-- Windows OS (Not tested on others)
+- Windows OS , MAC OS
 - FFmpeg (for audio processing)
 
 ### Installing FFmpeg on Windows 
