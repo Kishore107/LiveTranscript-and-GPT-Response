@@ -1,0 +1,4 @@
+pyaudio
+speechrecognition
+openai
+customtkinter
