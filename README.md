@@ -19,7 +19,7 @@ Copy code
 choco install ffmpeg
 ## 🔧 Installation
 Clone the repository:
-bash
+''bash
 
 git clone https://github.com/yourusername/livetranscript
 Navigate to the project folder:
